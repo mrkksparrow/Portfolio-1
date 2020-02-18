@@ -133,7 +133,7 @@ STATICFILES_DIRS = [
 
 # Dropbox
 # DEFAULT_FILE_STORAGE = 'storages.backends.dropbox.DropBoxStorage'
-# DROPBOX_OAUTH2_TOKEN = '#'
+# DROPBOX_OAUTH2_TOKEN = ''
 # DROPBOX_TIMEOUT = 'None'
 
 # LOGGING = {
