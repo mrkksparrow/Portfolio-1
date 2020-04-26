@@ -7158,7 +7158,7 @@ button.bg-dark:focus {
 }
 
 .rounded-lg {
-  border-radius: 0.3rem !important;
+  border-radius: 8px !important;
 }
 
 .rounded-circle {
@@ -8628,7 +8628,7 @@ button.bg-dark:focus {
 
 .mt-5,
 .my-5 {
-  margin-top: 3rem !important;
+  margin-top: 1px !important;
 }
 
 .mr-5,
@@ -8772,7 +8772,7 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 1rem !important;
 }
 
 .pr-5,
@@ -8782,7 +8782,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .pl-5,
@@ -11409,6 +11409,7 @@ h5,
   padding: 2em;
   background: rgba(255, 255, 255, 0.1);
   width: 100%;
+  border-radius: 8px;
 }
 .services-1 .icon {
   display: block;
@@ -11458,7 +11459,8 @@ h5,
   color: rgba(0, 0, 0, 0.7);
 }
 .services-1:hover {
-  background: #3e64ff;
+  border: solid;
+  border-color: black;
 }
 .services-1:hover .icon i {
   color: #fff;
@@ -11795,7 +11797,7 @@ textarea.form-control {
 }
 
 .ftco-section {
-  padding: 4em 0;
+  padding: 2em 0;
   position: relative;
 }
 @media (max-width: 767.98px) {
@@ -12020,6 +12022,7 @@ textarea.form-control {
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -12213,10 +12216,10 @@ textarea.form-control {
 .contact-section .box {
   width: 100%;
   display: block;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  -ms-border-radius: 4px;
-  border-radius: 4px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  border-radius: 8px;
 }
 @media (max-width: 991.98px) {
   .contact-section .box {
